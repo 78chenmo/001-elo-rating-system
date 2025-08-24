@@ -112,13 +112,15 @@ K = \min \Big(K_{max}, \, \alpha(R - R_{min})^p \, R - R_{min}\Big),
 $$  
 
 ---
-我们编写python程序，让三种K(R)函数可视化
+我们编写python程序[3K_viz.py](./3K_viz.py)来可视化 K 函数的变化。
+
+，让三种K(R)函数可视化
 以下是一个例子:
 - 规定 300~400 分为 K 函数生效的“预警”分段  
 - 参数设定： $c=0.14$ , $\tau=7.86$ , $\alpha=0.01$ , $p=1.48$ , $K_{max}=25$ , $R_{min}=100$ ,胜率=20%  
 
 结果如图：
-
+![Elo Evolution](./Elo_Evolution.png)
 可以看到
 - Linear 方法下降最快,后期较为平稳  
 - Sigmoid 方法下降最慢,后期掉分最快  
