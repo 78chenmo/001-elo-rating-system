@@ -158,3 +158,5 @@ $$
 
 ② TrueSkill 法(微软提出)  
 通过 **高斯分布** 评估玩家水平,并用 **贝叶斯推断** 更新均值和方差,适合多人、多结果场景。  
+
+详见[002-Trueskill-system](https://github.com/78chenmo/002-Trueskill-system)
