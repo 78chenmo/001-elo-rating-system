@@ -120,7 +120,12 @@ $$
 - 参数设定： $c=0.14$ , $\tau=7.86$ , $\alpha=0.01$ , $p=1.48$ , $K_{max}=25$ , $R_{min}=100$ ,胜率=20%  
 
 结果如图：
-![Elo Evolution](./Elo_Evolution.png)
+
+<p align="center">
+  <img src="./Elo_Evolution.png" alt="Elo Evolution" width="900"/>
+</p>
+
+
 可以看到
 - Linear 方法下降最快,后期较为平稳  
 - Sigmoid 方法下降最慢,后期掉分最快  
