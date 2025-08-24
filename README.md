@@ -107,7 +107,7 @@ $$
 ③ 指数法  
 
 $$
-K = \min \Big(K_{max}, \, \alpha(R - R_{min})^p, \, R - R_{min}\Big),
+K = \min \Big(K_{max}, \, \alpha(R - R_{min})^p \, R - R_{min}\Big),
 \quad \alpha \in (0,1], \, p \in (0,1]
 $$  
 
